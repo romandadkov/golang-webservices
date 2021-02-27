@@ -4,36 +4,9 @@ Go (golang) - современный язык программирования, 
 В курсе рассмотрены основы программирования на языке Go, а так же опыт применения языка в основных задачах, которые встречаются сегодня в серверной веб-разработке. 
 В данной части курса рассмотрены основы языка и разработки веб-сервисов с использованием стандартной библиотеки
 
-## Полезные книги общего характера
+## Введение в Golang
 
-### Алгоритмы
-
-- [Грокаем алгоритмы](https://www.ozon.ru/context/detail/id/139296295/)
-- [Теоретический минимум по Computer Science](https://www.ozon.ru/context/detail/id/144946027/)
-- [Карьера программиста](https://www.piter.com/collection/all/product/kariera-programmista-6-e-izdanie-2)
-
-### Культура программирования
-
-- [Чистый код](https://www.ozon.ru/context/detail/id/142429922/)
-- [Идеальный программист](https://www.ozon.ru/context/detail/id/135465064/)
-- [Чистая архитектура](https://www.ozon.ru/context/detail/id/144499396/)
-- [Совершенный код](https://www.ozon.ru/context/detail/id/142768363/)
-
-### Базы данных
-
-- [Высоконагруженные приложения](https://www.ozon.ru/context/detail/id/144402960/)
-
-### Производительность
-
-- [Systems Performance Enterprise and the Cloud](https://www.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098)
-
-### Эксплуатация
-
-- [Site Reliability Engineering](https://www.piter.com/collection/soon/product/site-reliability-engineering-nadezhnost-i-bezotkaznost-kak-v-google)
-
-## Материалы для чтения к 1-му уроку
-
-### Материалы для дополнительного чтения на английском
+### Материалы для дополнительного чтения
 
 - [https://golang.org/ref/spec](https://golang.org/ref/spec) - спецификация по язык
 - [https://golang.org/ref/mem](https://golang.org/ref/mem) - модель памяти го. на начальном этапе не надо, но знать полезно
@@ -59,8 +32,6 @@ Go (golang) - современный язык программирования, 
 - [https://www.youtube.com/watch?v=MzTcsI6tn-0](https://www.youtube.com/watch?v=MzTcsI6tn-0) - как организовать код
 - [https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1](https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1) - статья на предыдущую тему
 
-### Материалы для дополнительного чтения на русском
-
 - [https://habrahabr.ru/company/mailru/blog/314804/](https://habrahabr.ru/company/mailru/blog/314804/) - 50 оттенков го. обязательно к прочтению. многое оттуда мы ещё не проходили, но на будущее - имейте ввиду
 - [https://habrahabr.ru/post/306914/](https://habrahabr.ru/post/306914/) - Разбираемся в Go: пакет io
 - [https://habrahabr.ru/post/272383/](https://habrahabr.ru/post/272383/) - постулаты go. Маленькая статья об основными принципах языка
@@ -71,15 +42,15 @@ Go (golang) - современный язык программирования, 
 - [https://habrahabr.ru/post/276981/](https://habrahabr.ru/post/276981/) - Краш-курс по интерфейсам в Go
 - [http://golang-book.ru](http://golang-book.ru)
 
-### Литература по го на русском языке
+### Литература
 
 - Язык программирования Go, Алан А. А. Донован, Брайан У. Керниган
 - Go на практике, Matt Butcher, Мэтт Фарина Мэтт
 - Программирование на Go. Разработка приложений XXI века, Марк Саммерфильд
 
-## Материалы для чтения ко 2-му уроку
+## Асинхронная работа
 
-### На английском
+### Материалы для дополнительного чтения
 
 - [https://blog.golang.org/race-detector](https://blog.golang.org/race-detector)
 - [https://blog.golang.org/pipelines](https://blog.golang.org/pipelines)
@@ -92,6 +63,11 @@ Go (golang) - современный язык программирования, 
 - [http://www.tapirgames.com/blog/golang-channel-closing](http://www.tapirgames.com/blog/golang-channel-closing)
 - [https://github.com/golang/go/wiki/CommonMistakes](https://github.com/golang/go/wiki/CommonMistakes)
 
+- [https://habrahabr.ru/post/141853/](https://habrahabr.ru/post/141853/) - как работают горутины
+- [https://habrahabr.ru/post/308070/](https://habrahabr.ru/post/308070/) - как работают каналы
+- [https://habrahabr.ru/post/333654/](https://habrahabr.ru/post/333654/) - как работает планировщик ([https://rakyll.org/scheduler/](https://rakyll.org/scheduler/))
+- [https://habrahabr.ru/post/271789/](https://habrahabr.ru/post/271789/) - танцы с мютексами
+
 ### Видео
 
 - [https://www.youtube.com/watch?v=5buaPyJ0XeQ](https://www.youtube.com/watch?v=5buaPyJ0XeQ) - классное выступление Dave Cheney про функции первого класса и использование их с горутинами, очень рекомендую, оно небольшое
@@ -99,14 +75,7 @@ Go (golang) - современный язык программирования, 
 - [https://www.youtube.com/watch?v=rDRa23k70CU&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=15](https://www.youtube.com/watch?v=rDRa23k70CU&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=15) - ещё одно хорошее видео про паттерны конкуренции в го
 - [https://www.youtube.com/watch?v=KAWeC9evbGM](https://www.youtube.com/watch?v=KAWeC9evbGM) - видео Андрея Смирнова с конференции Highload - в нём вы можете получить более детальную информацию по теме вводного видео (методы обработки запросов и плюсы неблокирующего подхода), о том, что там творится на системном уровне. На русском, не про go
 
-### На русском
-
-- [https://habrahabr.ru/post/141853/](https://habrahabr.ru/post/141853/) - как работают горутины
-- [https://habrahabr.ru/post/308070/](https://habrahabr.ru/post/308070/) - как работают каналы
-- [https://habrahabr.ru/post/333654/](https://habrahabr.ru/post/333654/) - как работает планировщик ([https://rakyll.org/scheduler/](https://rakyll.org/scheduler/))
-- [https://habrahabr.ru/post/271789/](https://habrahabr.ru/post/271789/) - танцы с мютексами
-
-### Книги
+### Литература
 
 - Язык программирования Go, Алан А. А. Донован, Брайан У. Керниган - глава 8
 - Concurrency in Go: Tools and Techniques for Developers, by Katherine Cox-Buday
