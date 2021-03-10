@@ -2,7 +2,8 @@
 
 |course|accomplishment|
 |------|--------------|
-|[Разработка веб-сервисов на Go](https://www.coursera.org/learn/golang-webservices-1)|[certificate](https://www.coursera.org/account/accomplishments/certificate/MJPWV985PDH3)|
+|[Разработка веб-сервисов на Go, часть 1](https://www.coursera.org/learn/golang-webservices-1)|[certificate](https://www.coursera.org/account/accomplishments/certificate/MJPWV985PDH3)|
+|[Разработка веб-сервисов на Go, часть 2](https://www.coursera.org/learn/golang-webservices-2)||
 
 
 ## Полезные книги общего характера
